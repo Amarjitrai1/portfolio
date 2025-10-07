@@ -42,8 +42,8 @@ export const projects: Project[] = [
     longDescription: 'A comprehensive financial dashboard for tracking expenses, analyzing spending patterns, and managing budgets. Features real-time analytics, advanced filtering, CSV export, and LocalStorage persistence.',
     image: '/images/financial-dashboard.png', // Add your screenshot
     tags: ['React', 'TypeScript', 'Analytics', 'LocalStorage', 'Charts'],
-    githubUrl: 'https://github.com/yourusername/financial-dashboard',
-    liveUrl: 'https://financial-dashboard-demo.vercel.app',
+    githubUrl: 'https://github.com/Amarjitrai1/financial-dashboard.git',
+    liveUrl: 'https://financial-board.netlify.app/',
     featured: true,
     metrics: [
       { label: 'Transactions', value: '150+' },
