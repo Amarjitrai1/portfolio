@@ -8,8 +8,8 @@ export const projects: Project[] = [
     longDescription: 'A performance-optimized e-commerce platform built with React and TypeScript, demonstrating advanced optimization techniques including lazy loading, memoization, and debouncing. Handles 5,000+ products with sub-100ms filter times and achieves 95+ Lighthouse scores.',
     image: '/images/performance-ecommerce.png', // Add your screenshot
     tags: ['React', 'TypeScript', 'Tailwind CSS', 'Performance', 'Lazy Loading'],
-    githubUrl: 'https://github.com/yourusername/performance-ecommerce',
-    liveUrl: 'https://performance-ecommerce-demo.vercel.app',
+    githubUrl: 'https://github.com/Amarjitrai1/performance-ecommerce.git',
+    liveUrl: 'https://performance-ecommerce.netlify.app',
     featured: true,
     metrics: [
       { label: 'Products', value: '5,000+' },
@@ -25,8 +25,8 @@ export const projects: Project[] = [
     longDescription: 'An AI-powered expense processor that automatically extracts vendor details, amounts, categories, and dates from receipts with confidence scoring. Features intelligent categorization, batch processing, and real-time analytics.',
     image: '/images/ai-expense-processor.png', // Add your screenshot
     tags: ['React', 'TypeScript', 'AI Integration', 'NLP', 'Async'],
-    githubUrl: 'https://github.com/yourusername/ai-expense-processor',
-    liveUrl: 'https://ai-expense-demo.vercel.app',
+    githubUrl: 'https://github.com/Amarjitrai1/ai-expense-processor.git',
+    liveUrl: 'https://ai-expense-processor.netlify.app/',
     featured: true,
     metrics: [
       { label: 'Accuracy', value: '85%+' },
