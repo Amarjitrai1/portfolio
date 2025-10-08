@@ -98,7 +98,7 @@ export const Contact: React.FC = () => {
               {/* Contact Methods */}
               <div className="space-y-4">
                 <motion.a
-                  href="mailto:your.email@example.com"
+                  href="mailto:amarjitrai1@yahoo.com"
                   className="flex items-center space-x-4 p-4 bg-white dark:bg-dark-card rounded-lg shadow-md hover:shadow-lg transition-all"
                   whileHover={{ x: 5 }}
                 >
@@ -108,13 +108,13 @@ export const Contact: React.FC = () => {
                   <div>
                     <div className="font-medium text-gray-900 dark:text-white">Email</div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
-                      your.email@example.com
+                      amarjitrai1@yahoo.com
                     </div>
                   </div>
                 </motion.a>
 
                 <motion.a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="https://www.linkedin.com/in/amarjitrai/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-4 p-4 bg-white dark:bg-dark-card rounded-lg shadow-md hover:shadow-lg transition-all"
@@ -126,13 +126,13 @@ export const Contact: React.FC = () => {
                   <div>
                     <div className="font-medium text-gray-900 dark:text-white">LinkedIn</div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
-                      /in/yourprofile
+                      /in/amarjitrai
                     </div>
                   </div>
                 </motion.a>
 
                 <motion.a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/Amarjitrai1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-4 p-4 bg-white dark:bg-dark-card rounded-lg shadow-md hover:shadow-lg transition-all"
@@ -144,7 +144,7 @@ export const Contact: React.FC = () => {
                   <div>
                     <div className="font-medium text-gray-900 dark:text-white">GitHub</div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
-                      @yourusername
+                      @Amarjitrai1
                     </div>
                   </div>
                 </motion.a>

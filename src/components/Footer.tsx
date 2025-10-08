@@ -1,15 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHeart, FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from 'react-icons/fa';
+import { FaHeart, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: FaGithub, url: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: FaLinkedin, url: 'https://linkedin.com/in/yourprofile', label: 'LinkedIn' },
-    { icon: FaTwitter, url: 'https://twitter.com/yourusername', label: 'Twitter' },
-    { icon: FaEnvelope, url: 'mailto:your.email@example.com', label: 'Email' },
+    { icon: FaGithub, url: 'https://github.com/Amarjitrai1', label: 'GitHub' },
+    { icon: FaLinkedin, url: 'https://www.linkedin.com/in/amarjitrai/', label: 'LinkedIn' },
+    { icon: FaEnvelope, url: 'mailto:amarjitrai1@yahoo.com', label: 'Email' },
   ];
 
   return (
