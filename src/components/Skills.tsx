@@ -3,11 +3,22 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { 
   FaReact, FaJs, FaHtml5, FaCss3Alt, FaNode, FaGitAlt, 
-  FaGithub, FaNpm, FaFigma 
+  FaGithub, FaNpm, FaFigma, 
+  FaSass,
+  FaBootstrap,
+  FaCode
 } from 'react-icons/fa';
 import { 
   SiTypescript, SiNextdotjs, SiTailwindcss, SiFramer, 
-  SiGraphql, SiWebpack, SiVite, SiJest 
+  SiGraphql, SiWebpack, SiVite, SiJest, 
+  SiRedux,
+  SiRubyonrails,
+  SiRuby,
+  SiPostgresql,
+  SiMysql,
+  SiSqlite,
+  SiGoogle,
+  SiMapbox,
 } from 'react-icons/si';
 
 export const Skills: React.FC = () => {
@@ -35,42 +46,51 @@ export const Skills: React.FC = () => {
     },
   };
 
-  const skillCategories = [
-    {
-      title: 'Frontend',
-      skills: [
-        { name: 'React', icon: FaReact, color: '#61DAFB' },
-        { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
-        { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
-        { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
-        { name: 'Tailwind', icon: SiTailwindcss, color: '#06B6D4' },
-        { name: 'HTML5', icon: FaHtml5, color: '#E34F26' },
-        { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6' },
-        { name: 'Framer', icon: SiFramer, color: '#0055FF' },
-      ],
-    },
-    {
-      title: 'Backend & APIs',
-      skills: [
-        { name: 'Node.js', icon: FaNode, color: '#339933' },
-        { name: 'GraphQL', icon: SiGraphql, color: '#E10098' },
-      ],
-    },
-    {
-      title: 'Tools & Testing',
-      skills: [
-        { name: 'Git', icon: FaGitAlt, color: '#F05032' },
-        { name: 'GitHub', icon: FaGithub, color: '#181717' },
-        // { name: 'VS Code', icon: SiVisualstudio, color: '#007ACC' }, // Removed invalid icon
-        { name: 'Webpack', icon: SiWebpack, color: '#8DD6F9' },
-        { name: 'Vite', icon: SiVite, color: '#646CFF' },
-        { name: 'npm', icon: FaNpm, color: '#CB3837' },
-        { name: 'Jest', icon: SiJest, color: '#C21325' },
-        { name: 'Figma', icon: FaFigma, color: '#F24E1E' },
-      ],
-    },
-  ];
-
+ const skillCategories = [
+  {
+    title: 'Frontend',
+    skills: [
+      { name: 'React', icon: FaReact, color: '#61DAFB' },
+      { name: 'Redux', icon: SiRedux, color: '#764ABC' },
+      { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
+      { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
+      { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
+      { name: 'HTML5', icon: FaHtml5, color: '#E34F26' },
+      { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6' },
+      { name: 'SASS/SCSS', icon: FaSass, color: '#CC6699' },
+      { name: 'Bootstrap', icon: FaBootstrap, color: '#7952B3' },
+      { name: 'Tailwind', icon: SiTailwindcss, color: '#06B6D4' },
+      { name: 'Framer', icon: SiFramer, color: '#0055FF' },
+    ],
+  },
+  {
+    title: 'Backend & APIs',
+    skills: [
+      { name: 'Node.js', icon: FaNode, color: '#339933' },
+      { name: 'Ruby on Rails', icon: SiRubyonrails, color: '#CC0000' },
+      { name: 'Ruby', icon: SiRuby, color: '#CC342D' },
+      { name: 'GraphQL', icon: SiGraphql, color: '#E10098' },
+      { name: 'REST APIs', icon: FaCode, color: '#FF6B35' },
+      { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
+      { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
+      { name: 'SQLite', icon: SiSqlite, color: '#003B57' },
+    ],
+  },
+  {
+    title: 'Tools & Services',
+    skills: [
+      { name: 'Git', icon: FaGitAlt, color: '#F05032' },
+      { name: 'GitHub', icon: FaGithub, color: '#181717' },
+      { name: 'Webpack', icon: SiWebpack, color: '#8DD6F9' },
+      { name: 'Vite', icon: SiVite, color: '#646CFF' },
+      { name: 'npm', icon: FaNpm, color: '#CB3837' },
+      { name: 'Jest', icon: SiJest, color: '#C21325' },
+      { name: 'Figma', icon: FaFigma, color: '#F24E1E' },
+      { name: 'Google APIs', icon: SiGoogle, color: '#4285F4' },
+      { name: 'Mapbox', icon: SiMapbox, color: '#000000' },
+    ],
+  },
+];
   return (
     <section
       id="skills"

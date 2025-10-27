@@ -80,7 +80,7 @@ export const Hero: React.FC = () => {
           variants={itemVariants}
           className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto"
         >
-          Frontend Engineer specializing in{' '}
+          Fullstack Engineer skilled in{' '}
           <span className="text-primary-600 dark:text-primary-400 font-semibold">
             React, TypeScript
           </span>
