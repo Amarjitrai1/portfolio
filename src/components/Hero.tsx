@@ -112,24 +112,24 @@ export const Hero: React.FC = () => {
             View My Work
           </motion.a>
           
-          <motion.a
+          {/* <motion.a
             href="#contact"
             className="px-8 py-3 border-2 border-primary-600 text-primary-600 dark:text-primary-400 rounded-lg font-medium hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             Get In Touch
-          </motion.a>
+          </motion.a> */}
           
           {/* Download CV Button */}
-          {/* <motion.a
+          <motion.a
             href="/cv/YourName-CV.pdf"
             download="YourName-CV.pdf"
-            className="px-8 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors flex items-center justify-center space-x-2"
+            className="px-8 py-3 border-2 border-primary-600 text-primary-600 dark:text-primary-400 rounded-lg font-medium hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <svg 
+            {/* <svg 
               className="w-5 h-5" 
               fill="none" 
               stroke="currentColor" 
@@ -141,9 +141,9 @@ export const Hero: React.FC = () => {
                 strokeWidth={2} 
                 d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" 
               />
-            </svg>
+            </svg> */}
             <span>Download CV</span>
-          </motion.a> */}
+          </motion.a>
         </motion.div>
 
 

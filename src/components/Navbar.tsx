@@ -59,13 +59,13 @@ export const Navbar: React.FC = () => {
             ))}
             
             {/* CV Download Button */}
-            <a
+            {/* <a
               href="/cv/YourName-CV.pdf"
               download="YourName-CV.pdf"
               className="px-4 py-2 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition-colors text-sm"
             >
               Download CV
-            </a>
+            </a> */}
             
             <ThemeToggle />
           </div>
